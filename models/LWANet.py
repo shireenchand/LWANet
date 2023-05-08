@@ -164,7 +164,7 @@ class LWANet(nn.Module):
         else:
             loss = [0]
 
-        pred = [torch.squeeze(pred, 1) for pred in pred]
+#         pred = [torch.squeeze(pred, 1) for pred in pred]
 
         return pred
 
